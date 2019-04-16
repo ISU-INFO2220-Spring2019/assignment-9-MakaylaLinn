@@ -1,2 +1,43 @@
-﻿body {
+﻿/*Makayla Linnastruth
+April 15, 2019
+INFO 2220
+Jon Holmes
+Assignment 9: Added an extra css page to style without messing too much with the other stylesheets*/
+body {
+    
 }
+
+#frmLogin {
+    border: 2px solid #00ff90;
+    border-radius: 10px;
+    background-color: white;
+    /*free image from: https://www.oneprojectcloser.com/watercolor-cactus/ */
+    background-image: url('../images/Cacti.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 400px;
+}
+
+#frmUser {
+    padding-left: 50px;
+    padding-top: 40px;
+    width: 400px;
+        
+}
+
+    #frmUser span {
+        font-weight: 400;
+        color: black;
+    }
+
+    #frmUser fieldset span {
+        border-radius: 10px;
+        color: #17a86a;  
+        background-color: #bfebbb;
+        padding-right: 50px;
+        padding-left: 50px;
+        
+    }
