@@ -1,0 +1,65 @@
+﻿/*Makayla Linnastruth
+March 31, 2019
+INFO 2220
+Jon Holmes
+Assignment 8: This is a css stylesheet to format the html style for the ajax page*/
+
+#ulPeople li {
+    /*removes bullet pts*/
+    list-style-type: none;
+    /*rounded corners*/
+    border-radius: 25px;
+    /*displays lis next to each other instead of linear*/
+    display: inline-block;
+    *display: inline; /*IE7*/
+    *zoom: 1; /*IE7*/
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+    text-align:center;
+}
+#personIcon {
+    width: 50px;
+    /*adds padding or float values would float up*/
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.group1 {
+    background-color: mediumpurple;
+}
+.group2 {
+    background-color: darkturquoise;
+}
+.group3 {
+    background-color: darksalmon;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1em;
+    /*adjusts paragraph line height*/
+    margin: 2px;
+    padding: 0px;
+}
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.group {
+    /*moves the group number to the right*/
+    float: right;
+    clear: right;
+    margin-right: 10px;
+}
+.age {
+    /*moves the age to the left*/
+    font-size: 1.1em;
+    float: left;
+    clear: left;
+    margin-left: 10px;
+}
+.phone {
+    color: #fff;
+    text-align: center;
+}

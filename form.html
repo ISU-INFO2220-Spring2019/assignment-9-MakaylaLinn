@@ -1,0 +1,65 @@
+﻿<!-- - - - - - - - - - - - - - - - - - - - -
+    Makayla Linnastruth
+    January 21, 2019
+    INFO 2220
+    Jon Holmes
+    Assignment 1 – Part III Purpose: This is a page created to practice html with form elements.
+- - - - - - - - - - - - - - - - - - - - - - -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="http://teaching.jdholmes.net/postvget/reader/index.php" method="post">
+        <input name="bengalID" type="hidden" />
+
+        <label for="txtFirstName">First Name:</label>
+        <input name="txtFirstName" type="text" /><br />
+
+        <label for="txtLastName">Last Name:</label>
+        <input name="txtLastName" type="text" /><br />
+
+        <label for="txtSecretKey">Secret Key:</label>
+        <input name="txtSecretKey" type="password" /><br />
+
+        <label for="ddFavColor">Favorite Color:</label>
+        <select>
+            <optgroup label="Colors">
+                <option value="606">Plum</option>
+                <option value="3CC">Aqua</option>
+                <option value="F00" selected>Red</option>
+                <option value="0F0">Green</option>
+            </optgroup>
+        </select>
+
+        <fieldset>
+            <legend>Day of the week</legend>
+            <input type="radio" name="day" value="sunday" />Sunday
+            <input type="radio" name="day" value="monday" />Monday
+            <input type="radio" name="day" value="tuesday" />Tuesday
+            <input type="radio" name="day" value="wednesday" />Wednesday
+            <input type="radio" name="day" value="thursday" />Thursday
+            <input type="radio" name="day" value="friday" checked="checked">Friday
+            <input type="radio" name="day" value="saturday" />Saturday
+        </fieldset>
+
+        <fieldset>
+            <legend>Times</legend>
+            <input type="checkbox" name="time" value="elevenam" />11:00 AM
+            <input type="checkbox" name="time" value="twelveam" />12:00 AM
+            <input type="checkbox" name="time" value="onepm" />1:00 PM
+            <input type="checkbox" name="time" value="twopm" />2:00 PM
+            <input type="checkbox" name="time" value="threepm" />3:00 PM
+        </fieldset>
+
+        <label for="txtDescription">Description:</label>
+        <input name="txtDescription" type="text"/><br />
+
+        <input type="submit" value="Send to Server" />
+    </form>
+
+</body>
+</html>

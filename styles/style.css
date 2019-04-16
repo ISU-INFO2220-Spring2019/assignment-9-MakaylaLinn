@@ -1,0 +1,85 @@
+﻿/*Makayla Linnastruth
+January 24, 2019
+INFO 2220
+Jon Holmes
+Assignment 2 Part II Purpose: This is a css stylesheet to format the html style*/
+
+@import url("stylex2.css");
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+p {
+    padding: 2ex;
+}
+
+/*sets the spans for csstest page only*/
+#test span{
+    font-weight: bold;
+}
+#test table span {
+    text-decoration: underline;
+}
+
+a {
+    color: #FF8800;
+}
+
+h1 {
+    color: #FF8800;
+    font-size: 2em;
+}
+
+h2 {
+    color: #888888;
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+th {
+    background-color: #F80;
+    color: #FFF;
+}
+
+tr {
+    font-size: .9em;
+    background-color: #EEE;
+}
+
+tr.other {
+    background-color: #DDD;
+}
+
+/*div classes*/
+.success, .warning, .error{
+    border: solid 1px #AAA;
+    font-weight: bold;
+    padding: .3em;
+    margin: .3em;
+}
+
+.success {
+    color: #080;
+    background-color: #F0FFF0;
+    border-color: #080;
+}
+
+.warning {
+    color: #880;
+    background-color: #FFFFF0;
+    border-color: #880;
+}
+
+.error {
+    color: #800;
+    background-color: #FFF0F0;
+    border-color: #800;
+}
+
+span {
+    color: #080
+}

@@ -1,0 +1,82 @@
+﻿<!-- - - - - - - - - - - - - - - - - - - - -
+    Makayla Linnastruth
+    January 23, 2019
+    INFO 2220
+    Jon Holmes
+    Assignment 2 Part I Purpose: This is a test html page to test css
+- - - - - - - - - - - - - - - - - - - - - - -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Test</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('images/background-ribbon.png');
+            background-repeat: no-repeat;
+            background-color: #F7EBE1;
+            margin-left: 100px;
+        }
+        table {
+            border-style: solid;
+        }
+    </style>
+</head>
+<body id="test">
+    <div class="success">Test Success</div>
+    <div class="warning">Test Warning</div>
+    <div class="error">Test Error</div>
+
+    <h1>Header1</h1>
+    <h2>Header2</h2>
+    <h3>Header3</h3>
+
+    <p>This <span class="special">text is</span> not too interesting. <span>It is for</span> testing purposes only.</p>
+
+    <!--Table of things I like and do not like-->
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Category</th>
+                <th scope="col">Most Liked</th>
+                <th scope="col">Least Liked</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="other">
+                <th scope="row">Color</th>
+                <td>Emerald Green</td>
+                <td>Neon Colors</td>
+            </tr>
+            <tr>
+                <th scope="row">Movie</th>
+                <td>The Count of Monte Cristo</td>
+                <td>Christmas Wedding Planner</td>
+            </tr>
+            <tr class="other">
+                <th scope="row">Game</th>
+                <td>Dominion</td>
+                <td>Googly Eyes</td>
+            </tr>
+            <tr>
+                <th scope="row">Music Genre</th>
+                <td>Pop</td>
+                <td>Scream-o</td>
+            </tr>
+            <tr class="other">
+                <th scope="row">Candy</th>
+                <td>Reese's</td>
+                <td>Good n' Plenty</td>
+            </tr>
+            <tr>
+                <th scope="row">Number</th>
+                <td><span>4</span></td>
+                <td><span>3</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="index.html">Back to Assignment List</a>
+</body>
+</html>

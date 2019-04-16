@@ -1,0 +1,37 @@
+﻿/*Makayla Linnastruth
+January 24, 2019
+INFO 2220
+Jon Holmes
+Assignment 2 Part III Purpose: This is a css stylesheet to format the html style and import into the first CSS stylesheet*/
+
+body {
+}
+
+a:hover {
+    color: #888;
+}
+
+td:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: cell;
+}
+
+.success:before, .error:before, .warning:before {
+    content: "Message: ";
+}
+
+span.special {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+span.special:before {
+    content: open-quote;
+}
+
+span.special:after {
+    content: close-quote;
+}
+
